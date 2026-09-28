@@ -1,0 +1,447 @@
+/* =========================
+   NAVBAR
+========================= */
+
+nav {
+  height: 70px;
+  background-color: #111827;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+  border-bottom: 1px solid #374151;
+}
+
+nav h2 {
+  color: #f97316;
+  font-size: 28px;
+}
+
+nav div {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  color: #f97316;
+}
+
+
+/* =========================
+   HOME SECTION
+========================= */
+
+.hero {
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  background-color: #111827;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero p {
+  font-size: 20px;
+  max-width: 700px;
+  line-height: 1.6;
+  color: #d1d5db;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  background-color: #f97316;
+  color: white;
+  border: none;
+  padding: 14px 35px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #ea580c;
+  transform: scale(1.05);
+}
+
+
+/* =========================
+   MEMBERSHIP PLANS
+========================= */
+
+.plans {
+  min-height: 100vh;
+  padding: 80px 40px;
+  text-align: center;
+  background-color: #1f2937;
+}
+
+.plans h2 {
+  font-size: 42px;
+  margin-bottom: 50px;
+  color: #f97316;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.plan-card {
+  background-color: #111827;
+  width: 250px;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #374151;
+  transition: 0.3s;
+}
+
+.plan-card:hover {
+  transform: translateY(-10px);
+  border-color: #f97316;
+}
+
+.plan-card h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.plan-card h4 {
+  font-size: 32px;
+  color: #f97316;
+  margin: 15px 0;
+}
+
+.plan-card p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #d1d5db;
+}
+
+.plan-card button {
+  margin-top: 20px;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 6px;
+  background-color: #f97316;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.plan-card button:hover {
+  background-color: #ea580c;
+}
+/* =========================
+   BOOKING FORM
+========================= */
+
+.booking {
+  min-height: 100vh;
+  padding: 80px 20px;
+  background-color: #111827;
+  text-align: center;
+}
+
+.booking h2 {
+  font-size: 42px;
+  color: #f97316;
+  margin-bottom: 40px;
+}
+
+.booking form {
+  width: 400px;
+  max-width: 100%;
+  margin: auto;
+  background-color: #1f2937;
+  padding: 35px;
+  border-radius: 12px;
+  border: 1px solid #374151;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.booking label {
+  margin-bottom: 8px;
+  color: white;
+  font-size: 16px;
+}
+
+.booking input {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #4b5563;
+  border-radius: 6px;
+  background-color: #111827;
+  color: white;
+  font-size: 15px;
+}
+
+.booking input:focus {
+  outline: none;
+  border-color: #f97316;
+}
+
+.booking button {
+  padding: 14px;
+  background-color: #f97316;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.booking button:hover {
+  background-color: #ea580c;
+}
+/* =========================
+   TRAINERS
+========================= */
+
+.trainers {
+  min-height: 100vh;
+  padding: 80px 40px;
+  background-color: #1f2937;
+  text-align: center;
+}
+
+.trainers h2 {
+  font-size: 42px;
+  color: #f97316;
+  margin-bottom: 50px;
+}
+
+.trainer-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.trainer-card {
+  width: 280px;
+  padding: 35px 25px;
+  background-color: #111827;
+  border: 1px solid #374151;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.trainer-card:hover {
+  transform: translateY(-10px);
+  border-color: #f97316;
+}
+
+.trainer-icon {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.trainer-card h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.trainer-card p {
+  color: #d1d5db;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.trainer-card span {
+  color: #f97316;
+  font-size: 15px;
+}
+/* =========================
+   CONTACT
+========================= */
+
+.contact {
+  min-height: 600px;
+  padding: 80px 40px;
+  background-color: #111827;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 42px;
+  color: #f97316;
+  margin-bottom: 50px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  width: 240px;
+  padding: 30px 20px;
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.contact-card:hover {
+  transform: translateY(-8px);
+  border-color: #f97316;
+}
+
+.contact-card h3 {
+  font-size: 20px;
+  color: #f97316;
+  margin-bottom: 15px;
+}
+
+.contact-card p {
+  color: #d1d5db;
+  line-height: 1.5;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  background-color: #0b1120;
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid #374151;
+}
+
+footer h2 {
+  color: #f97316;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+footer p {
+  color: #9ca3af;
+  margin-bottom: 15px;
+}
+
+footer .copyright {
+  font-size: 14px;
+  margin-top: 25px;
+}
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  /* Navbar */
+  nav {
+    height: auto;
+    padding: 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav div {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    font-size: 15px;
+  }
+
+
+  /* Home */
+  .hero {
+    min-height: 500px;
+    padding: 30px 20px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero p {
+    font-size: 17px;
+  }
+
+
+  /* Membership */
+  .plans {
+    padding: 60px 20px;
+  }
+
+  .plans h2 {
+    font-size: 34px;
+  }
+
+  .plan-card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+
+  /* Booking */
+  .booking {
+    padding: 60px 20px;
+  }
+
+  .booking h2 {
+    font-size: 34px;
+  }
+
+  .booking form {
+    width: 100%;
+    max-width: 350px;
+  }
+
+
+  /* Trainers */
+  .trainers {
+    padding: 60px 20px;
+  }
+
+  .trainers h2 {
+    font-size: 34px;
+  }
+
+  .trainer-card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+
+  /* Contact */
+  .contact {
+    padding: 60px 20px;
+  }
+
+  .contact h2 {
+    font-size: 34px;
+  }
+
+  .contact-card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+}
